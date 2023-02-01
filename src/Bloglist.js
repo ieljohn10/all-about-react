@@ -1,13 +1,12 @@
-const BlogList = ({  id, blogs, title, handleDelete }) => {
+const BlogList = ({ blogs, title }) => {
     return ( 
         <div className="blog-list">
             <h2>{ title }</h2>
-            {blogs.map( (item) => (
+            {blogs.map((blog) => (
                 // we use "item" because "item" have access to each item and then the id property from that blogs
-                <div className="blog-preview" key={item.id}>
-                    <h2>{ item.title }</h2>
-                    <p>Written by: { item.author }</p>
-                    <button onClick={() => handleDelete(item.id)}>delete blog</button>
+                <div className="blog-preview" key={blog.id}>
+                    <h2>{ blog.title }</h2>
+                    <p>Written by { blog.author }</p>
                 </div>
             ))}
         </div>
