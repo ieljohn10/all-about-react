@@ -1,20 +1,21 @@
 {
-    [
-        { 
+  "blogs":
+        [
+          {
             "id": 1,
-            "title": "My First Blog", 
-            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, sed?", 
-            "author": "mario", 
+            "title": "My First Blog",
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, sed?",
+            "author": "mario",
             "user": "yeyel",
             "password": "123456"
-        },
-        { 
+          },
+          {
             "id": 2,
-            "title": "Opening Party!", 
-            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, sed?", 
-            "author": "yoshi", 
+            "title": "Opening Party!",
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, sed?",
+            "author": "yoshi",
             "user": "yeyel",
             "password": "123456"
-        }
-    ]
+          }
+        ]
 }
